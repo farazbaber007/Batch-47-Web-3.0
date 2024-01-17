@@ -1,4 +1,5 @@
 import Mybutton from "@/components/Mybutton";
+import DisplayingData from "@/components/DisplayingData";
 
 
 // fragment tag import {Fragment} from "react"; (key accept krta ha )
@@ -34,6 +35,10 @@ const Reactlearn=()=>{
                 <p className="text=sm font-semibold">In React, you specify a CSS class with className. It works the same way as the HTML class attribute:
 
 </p>
+            </div>
+            <div className=" flex flex-col mt-5 font-bold">
+                 Display Data
+                 <DisplayingData />
             </div>
         </div>
     )
