@@ -1,5 +1,6 @@
 import Mybutton from "@/components/Mybutton";
 import DisplayingData from "@/components/DisplayingData";
+import ConditionalRendering from "@/components/ConditionalRendering ";
 
 
 // fragment tag import {Fragment} from "react"; (key accept krta ha )
@@ -40,6 +41,12 @@ const Reactlearn=()=>{
                  Display Data
                  <DisplayingData />
             </div>
+
+            <div className=" flex flex-col mt-5 font-bold">
+                 Conditional Rendering
+                 <ConditionalRendering />
+            </div>
+
         </div>
     )
 };
