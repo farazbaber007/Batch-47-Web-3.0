@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image1 from '@/assets/images/tortoise.jpg' 
+import tortoise from '@/assets/images/tortoise.jpg' 
 const DisplayingData = () => {
     const user = {
         name: "Faraz",
@@ -22,27 +22,27 @@ const DisplayingData = () => {
           src={user.imageUrl} 
            alt="image" /> */}
             
-        <div className="flex gap-5"> 
+          <div className="flex gap-5"> 
             {<Image 
-          className="rounded-full" 
-          src={user.imageUrl} 
-           alt="image" 
-           width={100}
-           height={100}
-           />
+            className="rounded-lg" 
+            src={user.imageUrl} 
+            alt="image" 
+            width={100}
+            height={100}
+             />
            }
 
 
            
             {<Image 
-          className="rounded-full" 
-          src={image1} 
-           alt="image" 
-           width={100}
-           height={100}
-           />
+            className="rounded-full" 
+            src={tortoise} 
+            alt="image" 
+            width={  100}
+            height={100}
+            />
            }
-        </div>
+          </div>
         </div>
     </div>
   )

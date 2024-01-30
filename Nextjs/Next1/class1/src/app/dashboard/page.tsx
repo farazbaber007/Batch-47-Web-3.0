@@ -3,8 +3,10 @@ import Analytics from "./analytics/page";
 
 
 const Dashboard = () => {
+    const user = {name: "Faraz" };
     return(<div className="p-12"> Dashboard
         <div>
+          {/* <div>  Name: {user} </div> for testing error file */}
             <p className="text-lg font-bold"> nested route </p></div>
             <p> o create a nested route, you can nest folders inside each other. For example, you can add a new /dashboard/settings route by nesting two new folders in the app directory.</p>
     
@@ -20,6 +22,7 @@ const Dashboard = () => {
         className="font-bold text-red-500"  > 
         HTML Tag
     </a> 
+    New Page
     <a 
         href={"https://www.w3schools.com/tags/tag_a.asp"} 
         className="font-bold text-red-500" 
