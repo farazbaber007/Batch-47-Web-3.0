@@ -1,7 +1,8 @@
 import Mybutton from "@/components/Mybutton";
 import DisplayingData from "@/components/DisplayingData";
 import ConditionalRendering from "@/components/ConditionalRendering ";
-
+import RenderList from "@/components/RenderList";
+import UpdatingState from "@/components/UpdatingState";
 
 // fragment tag import {Fragment} from "react"; (key accept krta ha )
 // <> </> empty tag is main key nhy accept hoti wrapper (without key)
@@ -20,11 +21,11 @@ function MyButton2() {
 const Reactlearn=()=>{
     return (
         
-        <div className="flex flex-col gap-5 p-5"> 
+        <div className="flex flex-col gap-5 p-5 "> 
             react-learning page 
             
             <div className="text-xl font-extrabold">
-                <div> Create a Component</div>
+                <div className="text-green-500"> Create a Component</div>
                       Welcome to my app 
             </div>
             
@@ -37,14 +38,24 @@ const Reactlearn=()=>{
 
 </p>
             </div>
-            <div className=" flex flex-col mt-5 font-bold">
+            <div className=" flex flex-col mt-5 font-bold text ">
                  Display Data
                  <DisplayingData />
             </div>
 
-            <div className=" flex flex-col mt-5 font-bold">
+            <div className=" flex flex-col mt-5 font-bold ">
                  Conditional Rendering
                  <ConditionalRendering />
+            </div>
+            <div className=" flex flex-col mt-5 font-bold ">
+                 Rendering List Map function
+                 <RenderList />
+            </div>
+            <div className=" flex flex-col mt-5 font-bold text-green-500">
+                 State function
+            </div>
+            <div>      
+                 <UpdatingState />
             </div>
 
         </div>

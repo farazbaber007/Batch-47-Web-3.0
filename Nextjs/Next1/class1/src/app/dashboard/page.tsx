@@ -3,9 +3,10 @@ import Analytics from "./analytics/page";
 
 
 const Dashboard = () => {
-    const user = {name: "Faraz" };
+     const user = {name: "Faraz" }; //"{Error.tsx checking k lye aik object print kia at line no. 9, 10}"
     return(<div className="p-12"> Dashboard
         <div>
+            {/* //Error.tsx for checking purpose incomplete code likha */}
           {/* <div>  Name: {user} </div> for testing error file */}
             <p className="text-lg font-bold"> nested route </p></div>
             <p> o create a nested route, you can nest folders inside each other. For example, you can add a new /dashboard/settings route by nesting two new folders in the app directory.</p>
