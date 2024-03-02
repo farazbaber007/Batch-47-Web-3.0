@@ -3,6 +3,8 @@ import DisplayingData from "@/components/DisplayingData";
 import ConditionalRendering from "@/components/ConditionalRendering ";
 import RenderList from "@/components/RenderList";
 import UpdatingState from "@/components/UpdatingState";
+import Link from "next/link";
+
 
 // fragment tag import {Fragment} from "react"; (key accept krta ha )
 // <> </> empty tag is main key nhy accept hoti wrapper (without key)
@@ -21,8 +23,10 @@ function MyButton2() {
 const Reactlearn=()=>{
     return (
         
+     
         <div className="flex flex-col gap-5 p-5 "> 
             react-learning page 
+            <Link href={"react-learning/advanced-learning"}> <button className="bg-gray-950 text-white rounded-md p-1"> Advanced Learning </button></Link>
             
             <div className="text-xl font-extrabold">
                 <div className="text-green-500"> Create a Component</div>
@@ -57,8 +61,7 @@ const Reactlearn=()=>{
             <div>      
                  <UpdatingState />
             </div>
-
-        </div>
+            </div>
     )
 };
 
