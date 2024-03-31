@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "01-test-poetry"
+version = "0.1.0"
+description = ""
+authors = ["farazbaber007 <farazbaber007@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pytest = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
